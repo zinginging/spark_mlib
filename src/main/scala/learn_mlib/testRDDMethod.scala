@@ -16,6 +16,7 @@ object testRDDMethod {
     val arr = sc.parallelize(Array(1,2,3,4,5,6))
     val result = arr.aggregate(0)(math.max(_,_), _+_) //使用aggregate方法
     println(result)
+
   }
 
 }
