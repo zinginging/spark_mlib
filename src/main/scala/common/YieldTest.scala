@@ -26,6 +26,9 @@ object YieldTest {
     val a = new short("b")
     print(a.a)
 
+    val ab = Vector(1,2,3,4)
+    println(ab.size)
+
   }
 
 
